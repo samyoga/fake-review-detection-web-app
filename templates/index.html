@@ -15,17 +15,18 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 		<div class="container-fluid">
+			<img style="max-width:100px; margin-top: -7px;" src="https://brand.ku.edu/sites/brand/files/images/2020/KUMarks_Jayhawk.png"> 
 			<a class="navbar-brand" href="/">FAKE REVIEWS DETECTION</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+				
 			</button>
 			<div class="nav navbar-nav navbar-right" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-link" target="_blank"
-						href="https://github.com/samyoga/fake-review-detection-web-app/blob/main/Samyoga_IR_project_19_04_2023.ipynb">NoteBook</a>
+						href="https://github.com/samyoga/fake-review-detection-web-app/blob/main/IR_Project_Final_Apr_24,_2023.ipynb">NoteBook</a>
 					<a class="nav-link" target="_blank" href="https://github.com/samyoga/fake-review-detection-web-app">Code Source</a>
 				</div>
 			</div>
@@ -52,7 +53,7 @@
 	</div>
 	<br>
 	{% if result %}
-	<p style="text-align:center"><strong>Prediction : {{result}}</strong></p>
+	<p style="text-align:center"><strong>Prediction : This review is {{result}}</strong></p>
 	{% endif %}
 
 
